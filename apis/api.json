@@ -1,0 +1,286 @@
+{
+	"id": "604f0f71-4bf3-9465-6e0d-ac8a00139a05",
+	"name": "Aveosoft",
+	"description": "",
+	"order": [
+		"39df107e-dcc0-5f73-cf59-692dce13aed6",
+		"ccaccf3e-9bbb-1fb5-6985-da49b9627f97",
+		"e4e1dea9-6c6e-15d6-5f44-2ca5dca8a3ed",
+		"a3bc6f49-6c1a-2601-92b5-d1e57a99b974"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1590320241904,
+	"owner": "657441",
+	"public": false,
+	"requests": [
+		{
+			"id": "39df107e-dcc0-5f73-cf59-692dce13aed6",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/user/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "604f0f71-4bf3-9465-6e0d-ac8a00139a05",
+			"data": [
+				{
+					"key": "email",
+					"value": "milansoni44@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8000/api/v1/user/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1590320249815,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a3bc6f49-6c1a-2601-92b5-d1e57a99b974",
+			"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5MGEzNDczZi01NjM0LTQxYTUtYTcxNi0yZGQxMzYyZTAyM2YiLCJqdGkiOiJlOWZkNjlhMmQwZjQzZGRkMmNiZjViY2Q4N2I2YzY1Yjk1ZDdjYzFmMzFkNmQ3YjU1OTcwNTk3MDhhNWY1MjEzMWY4MWFlY2JlMzIxNjJmNCIsImlhdCI6MTU5MDMxMDg3OCwibmJmIjoxNTkwMzEwODc4LCJleHAiOjE2MjE4NDY4NzgsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.iWDUBqlquef3aJHPvcG1URQ9AhZeSHFvMm58XTxmq8knaSoi4hzrrsdVP4_LWSy3NYOu-nxI6_7emfoOT5QvfVT9F8-1EGo2DF7BdyMcyW5-UfLvBsisObn8atMrN-HmsWy_Uauz3Cf-HtaGoGqMXF_9E6mBElXE73Es5pnyhYMl4k0Q6-rhTKAWAfp1Dk-kk92q-AfGQjlEm5j_SLHi9SWXwnvRCri-JidIWAvATsjIOGu_Msz1U-m4ni_f5Zn8ELb3_Zepd7rcqJUCA3Glouqt2tt2rt3JnZ4o57UVsA5l0XLh4lJiiqTAaqrJRSwByCTo9Mdq8rV7CJGDsWE_dqiQ11cW_T0cR_G-afZtqfqu09ohy0pQncch3jhq5m5tJQ8XfTv091B5dwVrqv0IoGLyjugY8v7bUKiybQS1sWyZV8Eoj8R1UIC1f9Hw6OCnheIY6gkxgTqd3MGbwgUoXqtx1ctRLVESCoAzErYp2-su2tc8oOetEwUS9cgUINemVWhsYD-VPLBWdry2Eq0kn7ZHoBuLCs1I6dafkyjo9MQUn2oGCScYRERhMiDlIVMnke50I3tt7hxhnPZ_szk9cgvDoLFGA_EM63kq5pH2JSa56UBZUuW8u_4pB8IKCMnD3yDWtYC1ENoMCFkoqc7zrpGXiMDTbPMmj3Q4iewlkFg\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5MGEzNDczZi01NjM0LTQxYTUtYTcxNi0yZGQxMzYyZTAyM2YiLCJqdGkiOiJlOWZkNjlhMmQwZjQzZGRkMmNiZjViY2Q4N2I2YzY1Yjk1ZDdjYzFmMzFkNmQ3YjU1OTcwNTk3MDhhNWY1MjEzMWY4MWFlY2JlMzIxNjJmNCIsImlhdCI6MTU5MDMxMDg3OCwibmJmIjoxNTkwMzEwODc4LCJleHAiOjE2MjE4NDY4NzgsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.iWDUBqlquef3aJHPvcG1URQ9AhZeSHFvMm58XTxmq8knaSoi4hzrrsdVP4_LWSy3NYOu-nxI6_7emfoOT5QvfVT9F8-1EGo2DF7BdyMcyW5-UfLvBsisObn8atMrN-HmsWy_Uauz3Cf-HtaGoGqMXF_9E6mBElXE73Es5pnyhYMl4k0Q6-rhTKAWAfp1Dk-kk92q-AfGQjlEm5j_SLHi9SWXwnvRCri-JidIWAvATsjIOGu_Msz1U-m4ni_f5Zn8ELb3_Zepd7rcqJUCA3Glouqt2tt2rt3JnZ4o57UVsA5l0XLh4lJiiqTAaqrJRSwByCTo9Mdq8rV7CJGDsWE_dqiQ11cW_T0cR_G-afZtqfqu09ohy0pQncch3jhq5m5tJQ8XfTv091B5dwVrqv0IoGLyjugY8v7bUKiybQS1sWyZV8Eoj8R1UIC1f9Hw6OCnheIY6gkxgTqd3MGbwgUoXqtx1ctRLVESCoAzErYp2-su2tc8oOetEwUS9cgUINemVWhsYD-VPLBWdry2Eq0kn7ZHoBuLCs1I6dafkyjo9MQUn2oGCScYRERhMiDlIVMnke50I3tt7hxhnPZ_szk9cgvDoLFGA_EM63kq5pH2JSa56UBZUuW8u_4pB8IKCMnD3yDWtYC1ENoMCFkoqc7zrpGXiMDTbPMmj3Q4iewlkFg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/user/wallet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "604f0f71-4bf3-9465-6e0d-ac8a00139a05",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8000/api/v1/user/wallet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1590320270646,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ccaccf3e-9bbb-1fb5-6985-da49b9627f97",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/user/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "604f0f71-4bf3-9465-6e0d-ac8a00139a05",
+			"data": [
+				{
+					"key": "name",
+					"value": "Rakesh Jangir",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "milansoni44@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password_confirmation",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8000/api/v1/user/register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1590320258895,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e4e1dea9-6c6e-15d6-5f44-2ca5dca8a3ed",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5MGEzNDczZi01NjM0LTQxYTUtYTcxNi0yZGQxMzYyZTAyM2YiLCJqdGkiOiIxMWY3MTc0Zjc3NTFkY2EzOWJkYjdiMjNjMzhiY2M4YmEwNmJjMzFiMDZiYTBiNTgxMDc5ZjBlNmI4Nzk3MTAwMzFmNzJjZDk2MzAxNWE0OCIsImlhdCI6MTU5MDMxODMxOCwibmJmIjoxNTkwMzE4MzE4LCJleHAiOjE2MjE4NTQzMTgsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.l37sD6iFPf60DBoquHjw73SrkzdiR2Vxp8QjZybb5lr5Z7Fq-1u58zocGCQy3PzsQ7zjwZ4qLNb3bkKY3QKt6kH0CYjd7PVm29nqPGOEHLDMD1cbASAkM32PaZcbToSv4-Nuxj_W_LXo47rPyuQhMB3E6R9PWv3_rufTetn_Crq08_WOm2UktU9MswgPdZPOMXzI-2lLxDy4p1PFd3zlbVg21Zn_-xrGOa67EowMXjxi0MEuaXD-peCo1TwUiz8T1qHytVTrf7E6HVmKBZzEZiQpviaLr1W5saNUWTr1m6f-_0tXC2ELwOgBqiVksG0XPuMvOkEmHCNsPK-l808ZuQuYQvcNuiSZTm1REJG8Gi22Ku7qvLubFVvnFC8v1WybBeKwVdSFZktFqnjrtLFcZIB9iEMtfaTb3RIfTAZJi7JisnTyHX--cEBBztrgJLfbS91wC9H6RsmeiOaHbcj8cDFvsI0Dl5E5oTEGNVyhM1YaytgAK4FF7ksZAjsfhEI7VE32ObI5HlKeOM3SyPiKDZS1i4KijrLzFspboG4xTcwyKJ2k9-RsU3_CONVdzXnqOzVLZmW-DHFkqu-Nu07lcqlmeUIcisrS0IvLQYfNI_Oe08EPjKlNazt3GNfqv91hZmSetYpGb6R6toB9RbU4WY6Xwh-vglx9bO3HkE76blU\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5MGEzNDczZi01NjM0LTQxYTUtYTcxNi0yZGQxMzYyZTAyM2YiLCJqdGkiOiIxMWY3MTc0Zjc3NTFkY2EzOWJkYjdiMjNjMzhiY2M4YmEwNmJjMzFiMDZiYTBiNTgxMDc5ZjBlNmI4Nzk3MTAwMzFmNzJjZDk2MzAxNWE0OCIsImlhdCI6MTU5MDMxODMxOCwibmJmIjoxNTkwMzE4MzE4LCJleHAiOjE2MjE4NTQzMTgsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.l37sD6iFPf60DBoquHjw73SrkzdiR2Vxp8QjZybb5lr5Z7Fq-1u58zocGCQy3PzsQ7zjwZ4qLNb3bkKY3QKt6kH0CYjd7PVm29nqPGOEHLDMD1cbASAkM32PaZcbToSv4-Nuxj_W_LXo47rPyuQhMB3E6R9PWv3_rufTetn_Crq08_WOm2UktU9MswgPdZPOMXzI-2lLxDy4p1PFd3zlbVg21Zn_-xrGOa67EowMXjxi0MEuaXD-peCo1TwUiz8T1qHytVTrf7E6HVmKBZzEZiQpviaLr1W5saNUWTr1m6f-_0tXC2ELwOgBqiVksG0XPuMvOkEmHCNsPK-l808ZuQuYQvcNuiSZTm1REJG8Gi22Ku7qvLubFVvnFC8v1WybBeKwVdSFZktFqnjrtLFcZIB9iEMtfaTb3RIfTAZJi7JisnTyHX--cEBBztrgJLfbS91wC9H6RsmeiOaHbcj8cDFvsI0Dl5E5oTEGNVyhM1YaytgAK4FF7ksZAjsfhEI7VE32ObI5HlKeOM3SyPiKDZS1i4KijrLzFspboG4xTcwyKJ2k9-RsU3_CONVdzXnqOzVLZmW-DHFkqu-Nu07lcqlmeUIcisrS0IvLQYfNI_Oe08EPjKlNazt3GNfqv91hZmSetYpGb6R6toB9RbU4WY6Xwh-vglx9bO3HkE76blU",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/user/credit",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "604f0f71-4bf3-9465-6e0d-ac8a00139a05",
+			"data": [
+				{
+					"key": "card_number",
+					"value": "4242424242424242",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiration_year",
+					"value": "21",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiration_month",
+					"value": "01",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cvc",
+					"value": "123",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Milan Soni",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "milans@letsnekindle.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "line1",
+					"value": "Shakti Automobiles, Kanbha",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "postal_code",
+					"value": "382430",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "city",
+					"value": "Ahmedabad",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "state",
+					"value": "GJ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "country",
+					"value": "IN",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "amount",
+					"value": "5000.75",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Rakesh wallet 5K",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://127.0.0.1:8000/api/v1/user/credit",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1590320265821,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

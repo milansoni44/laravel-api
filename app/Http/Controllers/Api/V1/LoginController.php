@@ -130,8 +130,6 @@ class LoginController extends Controller
                 {
                     // Insert tansaction data into the database
                     $transaction = DB::transaction(function () use ($userId, $chargeJson) {
-                        // echo "<pre>";
-                        // var_dump($chargeJson);die;
                         $paymentStatus = $chargeJson['status'];
                         $amount = ($chargeJson['amount']/100);
 
@@ -143,7 +141,7 @@ class LoginController extends Controller
                             'transaction_id' => $chargeJson['balance_transaction'],
                             'status' => $paymentStatus
                         ]);
-                        // dd($walletTransaction);
+
                         // If the order is successful 
                         if($paymentStatus == 'succeeded'){ 
                             // update the wallet of user
@@ -156,8 +154,14 @@ class LoginController extends Controller
                     });
 
                     return response(['message'=>'Your amount is credited to wallet successfully.','transaction'=>['transaction_id'=>$transaction->transaction_id,'status'=>$transaction->status]]);
+                } else {
+                    return response(['message'=>'Your transaction is failed. Please try again later.']);
                 }
+            } else {
+                return response(['message'=>'Your transaction is failed. Please try again later.']);
             }
+        } else {
+            return response(['message'=>'Something went wrong in creating customer.']);
         }
     }
 }

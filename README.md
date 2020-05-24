@@ -33,4 +33,4 @@ php artisan serve
 3.  http://127.0.0.1:8000/api/v1/user/credit
 4.  http://127.0.0.1:8000/api/v1/user/wallet
 
-#### You can refer api\api.json file to test the apis. 
+#### You can refer apis\api.json file to test the apis. 

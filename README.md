@@ -18,9 +18,10 @@ DB_PASSWORD=
 STRIPE_API_KEY=<your_api_key>
 STRIPE_PUBLISHABLE_KEY=<your_publishable_key>
 ```
-5. Run below command to migrate database tables.
+5. Run below command to migrate database tables and generate secure access tokens.
 ```php
-php artisan migrate
+ 1. php artisan migrate
+ 2. php artisan passport:install
 ```
 6. Serve the project
 ```php

@@ -13,7 +13,7 @@ DB_DATABASE=aveosoft
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-4. Configuration Stripe in .ENV
+4. Configure Stripe in .ENV
 ```php
 STRIPE_API_KEY=<your_api_key>
 STRIPE_PUBLISHABLE_KEY=<your_publishable_key>
